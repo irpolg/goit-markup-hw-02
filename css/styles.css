@@ -2,10 +2,6 @@ body {
     font-family: "Roboto",sans-serif;
 }
 
-.nav {
-    color: #2e2f42;
-}
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18;
@@ -22,11 +18,21 @@ body {
     color: white;
 }
 
-.nav-menu {
-    color: #2e2f42;
+.menu-nav .menu {
+    font-size: 16;
+    font-weight: 500;
+    line-height: 24;
+    color: #434455;
 }
 
-.about-title {
+.menu-contact .contact {
+    font-size: 16;
+    font-weight: 400;
+    line-height: 24;
+    color: #434455;    
+}
+
+.about .about-title {
     font-size: 56;
     font-weight: 700;
     text-align: center;
@@ -34,7 +40,7 @@ body {
     color: white;
 }
 
-.about-button {
+.about .about-button {
     font-size: 16;
     font-weight: 500;
     line-height: 24;

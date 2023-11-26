@@ -38,8 +38,9 @@ body {
 .menu-address .email-tel {
     font-size: 16;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;    
 }
 
@@ -89,35 +90,38 @@ h2 {
     color: #2e2f42;
 }
 
-.team h2, .portfolio h2 {
+.team .team-h2, .portfolio h2 {
     line-height: 1.11;
     text-transform: capitalize;
 }
 
-/*
-.h3-section {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #2e2f42;
-}
-*/
 .h3-vision {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
+.team .h3-vision {
+    text-align: center;
+    text-transform: capitalize
+}
+/*
 .team .h3-team {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    color: #2e2f42;  
-    text-align: center;
     letter-spacing: 0.02em;
+    color: #2e2f42;  
+    
+    text-align: center;
     text-transform: capitalize
 }
+*/
+
+
+
 
 .portfolio .h3-portfolio {
     font-size: 20px;
@@ -126,16 +130,6 @@ h2 {
     color: #2e2f42;  
     letter-spacing: 0.02em;
 }
-
-/* class="p-vision"
-.p-section {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-*/
 
 .p-vision {
     font-size: 16px;

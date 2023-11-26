@@ -117,7 +117,7 @@ h2 {
     text-transform: capitalize
 }
 
-.port .h3-port {
+.port .h-port {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -141,7 +141,7 @@ h2 {
     color: #434455;
 }
 
-.port .p3-port {
+.port .p-port {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;

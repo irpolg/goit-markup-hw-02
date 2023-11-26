@@ -35,6 +35,10 @@ body {
     color: #404bbf;    
 }
 
+.menu-address {
+    font-style: normal;
+}
+
 .menu-address .email-tel {
     font-size: 16;
     font-weight: 400;
@@ -103,25 +107,15 @@ h2 {
     color: #2e2f42;
 }
 
-.team .h3-vision {
-    text-align: center;
-    text-transform: capitalize
-}
-/*
 .team .h3-team {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;  
-    
+    color: #2e2f42;
     text-align: center;
     text-transform: capitalize
 }
-*/
-
-
-
 
 .portfolio .h3-portfolio {
     font-size: 20px;

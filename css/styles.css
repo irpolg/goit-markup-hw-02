@@ -94,7 +94,7 @@ h2 {
     color: #2e2f42;
 }
 
-.team .team-h2, .portfolio h2 {
+.team .team-h2, .port h2 {
     line-height: 1.11;
     text-transform: capitalize;
 }
@@ -117,7 +117,7 @@ h2 {
     text-transform: capitalize
 }
 
-.portfolio .h3-port {
+.port .h3-port {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -141,7 +141,7 @@ h2 {
     color: #434455;
 }
 
-.portfolio .p3-port {
+.port .p3-port {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;

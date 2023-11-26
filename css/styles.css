@@ -54,7 +54,6 @@ body {
 }
 
 .about {
-    height: 600px;
     background-color: #2E2F42;
     text-align: center;
 }   
@@ -76,8 +75,6 @@ h1 {
     color: white;
     background-color: #4d5ae5;
     letter-spacing: 0.04em;
-    width: 169;
-    height: 56;
     cursor: pointer;
 }
 
@@ -164,9 +161,6 @@ h2 {
     background-color: #FFFFFF;
 }
 
-
-
-
 footer .footer-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -177,7 +171,6 @@ footer .footer-text {
 }
 
 footer {
-    height: 312px;
     background-color: #2E2F42;
 }
 

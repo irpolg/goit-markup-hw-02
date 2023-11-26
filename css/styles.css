@@ -25,11 +25,27 @@ body {
     color: #434455;
 }
 
-.menu-contact .contact {
+.menu-nav .menu:hover {
+    color: #404bbf;    
+}
+
+.menu-nav .menu:active {
+    color: #404bbf;    
+}
+
+.menu-address .email-tel {
     font-size: 16;
     font-weight: 400;
     line-height: 24;
     color: #434455;    
+}
+
+.menu-address .email-tel:focus {
+    color: #404bbf;    
+}
+
+.menu-address .email-tel:hover {
+    color: #404bbf;    
 }
 
 .about .about-title {

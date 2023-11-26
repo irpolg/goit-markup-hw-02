@@ -6,7 +6,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 18;
     font-weight: 700;
-    line-height: 21;
+    line-height: 1.17;
     color: #4d5ae5;
 }
 
@@ -21,52 +21,88 @@ body {
 .menu-nav .menu {
     font-size: 16;
     font-weight: 500;
-    line-height: 24;
+    line-height: 1.5;
     color: #434455;
 }
 
-.menu-nav .menu:hover {
-    color: #404bbf;    
-}
-
-.menu-nav .menu:active {
+.menu-nav .menu:hover,
+.menu-nav .menu:focus {
     color: #404bbf;    
 }
 
 .menu-address .email-tel {
     font-size: 16;
     font-weight: 400;
-    line-height: 24;
+    line-height: 1.5;
     color: #434455;    
 }
 
+.menu-address .email-tel:hover,
 .menu-address .email-tel:focus {
     color: #404bbf;    
 }
 
-.menu-address .email-tel:hover {
-    color: #404bbf;    
-}
+.about {
+    height: 600px;
+    background-color: #2E2F42;
+    text-align: center;
+}   
 
-.about .about-title {
+h1 {
     font-size: 56;
     font-weight: 700;
+    font-style: normal;
     text-align: center;
-    line-height: 60;
+    line-height: 1.07;
     color: white;
 }
 
-.about .about-button {
+.about button {
     font-size: 16;
     font-weight: 500;
-    line-height: 24;
+    line-height: 1.5;
     color: white;
+    background-color: #4d5ae5;
+    width: 169;
+    height: 56;
 }
 
-.about {
+button:hover {
+    background-color: #404bbf;
+}
+
+h2 {
+    font-size: 36;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    color: #2e2f42;
+}
+
+h3 {
+    font-size: 20;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+p {
+    font-size: 16;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.team h3, .team p {
+    text-align: center;
+}
+
+footer .footer-text {
     font-family: "Roboto", sans-serif;
-    background-color: #2E2F42;
-    height: 600px;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.5;
+    color: #f4f4fd;
 }
 
 footer {
@@ -74,9 +110,3 @@ footer {
     background-color: #2E2F42;
 }
 
-footer .footer-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16;
-    color: #f4f4fd;
-}

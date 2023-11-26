@@ -94,12 +94,13 @@ h2 {
     color: #2e2f42;
 }
 
-.team .team-h2, .port h2 {
+.team .team-h, .port h2 {
     line-height: 1.11;
     text-transform: capitalize;
 }
 
-.h3-visio {
+/* 3й заголовок */
+.h-visio {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -107,7 +108,8 @@ h2 {
     color: #2e2f42;
 }
 
-.team .h3-team {
+/* 3й заголовок  */
+.team .h-team {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -117,6 +119,7 @@ h2 {
     text-transform: capitalize
 }
 
+/* 3й заголовок */
 .port .h-port {
     font-size: 20px;
     font-weight: 500;

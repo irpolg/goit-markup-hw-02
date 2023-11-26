@@ -117,7 +117,7 @@ h2 {
     text-transform: capitalize
 }
 
-.portfolio .h-portfolio {
+.portfolio .h3-port {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -141,7 +141,7 @@ h2 {
     color: #434455;
 }
 
-.portfolio .p3-portfolio {
+.portfolio .p3-port {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;

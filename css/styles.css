@@ -12,6 +12,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration:none;
 }
 
 .logo-span-header {
@@ -22,12 +23,21 @@ body {
     color: #f4f4fd;
 }
 
+.menu-nav, 
+.menu-addr,
+.menu-visio,
+.menu-team,
+.menu-port {
+    list-style:none;
+}
+
 .menu-nav .menu {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #2e2f42;
+    text-decoration:none;
 }
 
 .menu-nav .menu:hover,
@@ -35,21 +45,23 @@ body {
     color: #404bbf;    
 }
 
-.menu-address {
+
+.menu-addr {
     font-style: normal;
 }
 
-.menu-address .email-tel {
-    font-size: 16;
+.menu-addr .email-tel {
+    font-size: 16px;
     font-weight: 400;
     font-style: normal; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;    
+    text-decoration:none;
 }
 
-.menu-address .email-tel:hover,
-.menu-address .email-tel:focus {
+.menu-addr .email-tel:hover,
+.menu-addr .email-tel:focus {
     color: #404bbf;    
 }
 
@@ -69,7 +81,7 @@ h1 {
 }
 
 .about button {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     color: white;
@@ -78,7 +90,8 @@ h1 {
     cursor: pointer;
 }
 
-button:hover, button:focus {
+button:hover, 
+button:focus {
     background-color: #404bbf;
 }
 
@@ -91,7 +104,8 @@ h2 {
     color: #2e2f42;
 }
 
-.team .team-h, .port h2 {
+.team .team-h, 
+.port h2 {
     line-height: 1.11;
     text-transform: capitalize;
 }
